@@ -1,0 +1,25 @@
+.div{
+position:relative;
+z-index: 1;
+}
+.div:before {
+	content:"";
+	position:absolute;
+	z-index:-1;
+	top: 0;
+	bottom: 0;
+	left:0 ;
+	right:0;
+	background: url('Chuck Taylor.jpg') center center;
+	opacity:.4!important;
+	background-size:cover;
+}
+
+.navbar li a{ 
+	color: white !important; 
+}
+
+.dropdown-menu .dropdown-item {
+	color: black !important;
+}
+
